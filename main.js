@@ -1,4 +1,4 @@
-function populate() {
+function scrolling() {
   while (true) {
     let windowRelativeBottom = document.documentElement.getBoundingClientRect()
       .bottom;
@@ -11,6 +11,6 @@ function populate() {
   }
 }
 
-window.addEventListener("scroll", populate);
+window.addEventListener("scroll", scrolling);
 
-populate();
+scrolling();
